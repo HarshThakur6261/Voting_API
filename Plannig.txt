@@ -1,0 +1,13 @@
+
+1- user signup [all the basic detail but main adhar card number  , isvoted ,role= user ]
+user login using there adhar card and password
+3-user can see the candidate list 
+2-user can vote (but on one adhar card there is only one vote)
+4- user can see the live voting [means no. of votes a candidate get till now]
+5-user can go on there profile to  update password
+now admin 
+{we track whether the user is admin or not by defining the role in schema if someone hit a api first we check which role he is holding}
+ admin cannot vote
+1- can add or remove the candidate list
+
+
